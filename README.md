@@ -1,8 +1,3 @@
-# PnutSonicChanges
-My idyllic sonic changes for P+'s next version, sort of a mini-rework.
-
-Changelog:
-
 -Gravity increased to 0.128 from 0.122
 
 -Initial dash speed increased to 1.75 from 1.7
@@ -15,7 +10,7 @@ Changelog:
 
 -Weight decreased to 80 from 82
 
--Fsmash IASA Increased to 35 from 32
+-Fsmash IASA removed
 
 -Frame speed modifier of 1.4 effective on frame 10 of initial dash
 
@@ -42,9 +37,9 @@ Changelog:
 
 -fair animation adjusted to better suit hurtboxes
 
--fair active frames moved to f9-10 and f11-14 from 8-9 and 10-13
+-fair active frames moved to f11-12 and f13-18 from 8-9 and 10-13
 
--Terminal velocity increased to 2.6 from 1.9
+-Terminal velocity increased to 2.5 from 1.9
 
 -uthrow animation slowed down by 15% after the opponent is launched to reduce actionability (frame speed modifier of 0.85 applied to frames 25-43)
 
@@ -59,6 +54,7 @@ Changelog:
 
 -New graphics and sounds for nair (it is otherwise unchanged)
 
+```
 -Up-B ledgegrab box now appears on frame 30 down from 31
 
 -Up B spinning animation plays 25% faster (cosmetic)
@@ -69,26 +65,29 @@ Changelog:
 
 -New up air
   Landing lag 24
-  Active frames 8-12 and 14-20
-  hit1 4%
-  hit1 106 degrees
+  Active frames 8-12 and 15-21
+  hit1 5%
+  hit1 92 degrees
   hit1 120 knockback growth
   hit1 30 Weight dependent set kb
   hit2 11%
   hit2 bkb 30
-  hit2 kbg 105
+  hit2 kbg 107
   hit2 87 degrees
+  hit2 foot hitbox size adjusted to 4.5 from 4.1
 
-  Hit2 f18-20 10% 30/100/87° 
+  Hit2 f19-21 9% 30/100/87°, foot hitbox 4.3
 
--SideB slidekick active frames moved to f6-19 from f6-25
+-SideB slidekick active frames moved to f8-20 from f6-25
 
--SideB slidekick can now only b performed after the jump cancel window on sideB has been passed
+-SideB slidekick base knockback and angle changed to 60 and 45 respectively 
+
+-SideB slidekick can now only be performed after the jump cancel window on sideB has been passed
 
 -SideB slidekick animation now ends on frame 43 instead of 53
 
 -Jab3 angle adjusted to 55 from 30
 
--Jab3 IASA reduced to 23 from 31
+-Jab3 IASA reduced to 25 from 31
 
--New SFX for better clarity on special moves
+-New SFX for better clarity on special moves```
