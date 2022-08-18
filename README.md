@@ -1,3 +1,4 @@
+```
 -Gravity increased to 0.128 from 0.122
 
 -Initial dash speed increased to 1.75 from 1.7
@@ -54,7 +55,6 @@
 
 -New graphics and sounds for nair (it is otherwise unchanged)
 
-```
 -Up-B ledgegrab box now appears on frame 30 down from 31
 
 -Up B spinning animation plays 25% faster (cosmetic)
