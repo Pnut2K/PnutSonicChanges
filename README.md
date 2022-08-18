@@ -69,7 +69,7 @@
   hit1 5%
   hit1 93 degrees
   hit1 120 knockback growth
-  hit1 30 Weight dependent set kb
+  hit1 40 Weight dependent set kb
   hit2 12%
   hit2 bkb 30
   hit2 kbg 102
