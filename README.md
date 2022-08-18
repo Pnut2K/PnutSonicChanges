@@ -2,7 +2,7 @@
 
 -Initial dash speed increased to 1.75 from 1.7
 
--Short hop vertical velocity decreased to 1.85 from 1.887
+-Short hop vertical velocity decreased to 1.825 from 1.887
 
 -Fullhop vertical velocity increased to 3.219 from 3.019 to compensate for fallspeed changes
 
@@ -67,16 +67,16 @@
   Landing lag 24
   Active frames 8-12 and 15-21
   hit1 5%
-  hit1 92 degrees
+  hit1 93 degrees
   hit1 120 knockback growth
   hit1 30 Weight dependent set kb
-  hit2 11%
+  hit2 12%
   hit2 bkb 30
-  hit2 kbg 107
-  hit2 87 degrees
+  hit2 kbg 102
+  hit2 90 degrees
   hit2 foot hitbox size adjusted to 4.5 from 4.1
 
-  Hit2 f19-21 9% 30/100/87°, foot hitbox 4.3
+  Hit2 f19-21 9% 25/100/85°, foot hitbox 4.3
 
 -SideB slidekick active frames moved to f8-20 from f6-25
 
