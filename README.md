@@ -1,9 +1,9 @@
-```
--Gravity increased to 0.128 from 0.122
+Trying this
+```-Gravity increased to 0.13 from 0.122
 
 -Initial dash speed increased to 1.75 from 1.7
 
--Short hop vertical velocity decreased to 1.825 from 1.887
+-Short hop vertical velocity decreased to 1.85 from 1.887
 
 -Fullhop vertical velocity increased to 3.219 from 3.019 to compensate for fallspeed changes
 
@@ -40,7 +40,7 @@
 
 -fair active frames moved to f11-12 and f13-18 from 8-9 and 10-13
 
--Terminal velocity increased to 2.5 from 1.9
+-Terminal velocity increased to 2.3 from 1.9
 
 -uthrow animation slowed down by 15% after the opponent is launched to reduce actionability (frame speed modifier of 0.85 applied to frames 25-43)
 
@@ -49,34 +49,22 @@
 -Down tilt frame data adjustments:
         Startup increased to 8 from 6
         Iasa reduced to 27 from 29
-        Active frames reduced to 4           from 5 
+        Active frames reduced to 4 from 5 
 
 -Dash attack base knockback decreased to 60 and made it frame 4 to kill gatling (sad)
 
 -New graphics and sounds for nair (it is otherwise unchanged)
 
--Up-B ledgegrab box now appears on frame 30 down from 31
-
--Up B spinning animation plays 25% faster (cosmetic)
-
--Back throw start and end sped up by 25%
+s-Back throw start and end sped up by 25%
 
 -New GFX for sideB
 
 -New up air
   Landing lag 24
-  Active frames 8-12 and 15-21
-  hit1 5%
-  hit1 93 degrees
-  hit1 120 knockback growth
-  hit1 40 Weight dependent set kb
-  hit2 12%
-  hit2 bkb 30
-  hit2 kbg 102
-  hit2 90 degrees
-  hit2 foot hitbox size adjusted to 4.5 from 4.1
-
-  Hit2 f19-21 9% 25/100/85°, foot hitbox 4.3
+  Active frames 8-13 and 15-22
+  hit1 4% 30wdsk/120kbg/92°
+  hit2 f15-19 13% 11% 30bkb/100kbg/90°
+  Hit2 f20-22 11% 25bkb/100kbg/90°
 
 -SideB slidekick active frames moved to f8-20 from f6-25
 
@@ -90,4 +78,6 @@
 
 -Jab3 IASA reduced to 25 from 31
 
--New SFX for better clarity on special moves```
+-New SFX for better clarity on certain moves or other fun references for flavor (dash attack, neutral B, sideB, down/neutralB startup, dair, jumps)
+
+-Disabled subaction 1E since it causes issues with clipping onto plats during blast attack, idk if this will ever be fixed```
