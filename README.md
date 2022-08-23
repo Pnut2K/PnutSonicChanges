@@ -1,83 +1,115 @@
 
-```-Gravity increased to 0.13 from 0.122
+```
+  -Gravity increased 0.122 > 0.13 (Jumps adjusted)
 
--Initial dash speed increased to 1.75 from 1.7
+  -Initial dash speed increased 
+      1.7 --> 1.75
 
--Short hop vertical velocity decreased to 1.85 from 1.887
+  -Short hop vertical velocity decreased
+      1.887 --> 1.825
 
--Fullhop vertical velocity increased to 3.219 from 3.019 to compensate for fallspeed changes
+  -Fullhop vertical velocity increased
+      3.019 --> 3.219
 
--Max run speed decreased to 2.6 from 4.0
+  -Max run speed decreased to 2.6 from 4.0
+      4.0 --> 2.6
 
--Weight decreased to 80 from 82
+  -Weight decreased to 80 from 82
+      82 --> 80
 
--Fsmash IASA removed
+  -Fsmash IASA removed
 
--Frame speed modifier of 1.4 effective on frame 10 of initial dash
+  -Initial dash distance and animation speed adjusted slightly 
+      40% speed increase f10
+      30% speed decrease f5-9
 
--Frame speed modifier of 0.7 effective on frames 5-9 of initial dash
+  -Standing Grab animation adjusted to reflect the hitbox properly
 
--Standing Grab animation adjusted to reflect the hitbox properly
+  -Outer standing grab hitbox raised to avoid high profiling in certain situations (tall humanoid characters)
 
--Outer standing grab hitbox raised to avoid high profiling in certain situations
+  -Bair active frames adjusted
+      f13-21 --> f11-19
 
--bair active frames 11-19 down from 13-21
+  -Bair f11-13 leg and foot hitbox stats adjusted
+      Damage: 16 --> 13
+      Base knockback: 40 --> 20
+      Knockback growth: 90 --> 100
 
--strong bair leg and foot hitboxes bkb decreased to 20 from 40
+  -Fair landing lag increased 
+      f22 --> f24
 
--strong bair kbg increased to 100 from 90
+  -Bair landing lag increased
+      f18 --> f22
 
--strong bair damage decreased to 13 from 16
-  Note: Bair hip hitbox knockback stats left unchanged to preserve uthrow bair on DI out
+  -Bair IASA window adjusted moved to 36 from 34
+      f34 --> f36
+      
+  -Fair foot size and position adjusted to better suit hit/hurtboxes
 
--Fair landing lag increased to 24
+  -Fair active frames moved to f11-12 and f13-18 from 8-9 and 10-13
+      Semispike: f8-9 --> f11-12
+      Meteor: f10-13 --> f13-18
 
--bair landing lag increased to 22
+  -Terminal velocity increased
+      1.9 --> 2.3  
 
--Bair Iasa moved to 36 from 34
+  -Uthrow animation speed slowed down by 15% after the opponent is launched to reduce actionability
+      15% speed decrease f25-43
+      
+  -Dtilt trajectory adjusted
+      100/100/106 --> 106/106/112
+  
+  -Dtilt knockback growth adjusted
+      119 --> 124
 
--fair animation adjusted to better suit hurtboxes
+  -Dtilt startup increased
+      f6 --> f8
+  
+  -Dtilt IASA reduced
+      f29 --> f27
+  
+  -Dtilt active frames reduced
+      5f --> 4f
 
--fair active frames moved to f11-12 and f13-18 from 8-9 and 10-13
+  -Dash attack startup increased
+      2f --> 4f
 
--Terminal velocity increased to 2.3 from 1.9
+  -Dash attack f4-7 base knockback decreased
+      70 --> 60  
 
--uthrow animation slowed down by 15% after the opponent is launched to reduce actionability (frame speed modifier of 0.85 applied to frames 25-43)
+  -New graphics and sounds for nair (stats unchanged)
 
--Increased kbg and trajectory on dtilt to make dtilt uair not confirm for as long (kbg Increased to 124 from 119, angles increased to 106/106/112 from 100/100/106)
+  -Back throw start and end sped up by 25%
 
--Down tilt frame data adjustments:
-        Startup increased to 8 from 6
-        Iasa reduced to 27 from 29
-        Active frames reduced to 4 from 5 
+  -New GFX for sideB
 
--Dash attack base knockback decreased to 60 and made it frame 4 to kill gatling (sad)
+  -New up air
+      Landing lag 24
+      Active frames 8-13 and 15-22
+      hit1 4% 30wdsk/120kbg/92°
+      hit2 f15-19 13% 11% 30bkb/100kbg/90°
+      Hit2 f20-22 11% 25bkb/100kbg/90°
 
--New graphics and sounds for nair (it is otherwise unchanged)
+  -SideB slidekick active frames moved to f8-20 from f6-25
+      f6-25 --> f8-20
 
-s-Back throw start and end sped up by 25%
+  -SideB slidekick base knockback reduced and angle changed to 60 and 45 respectively 
+      65 --> 60
+      
+  -SideB slidekick f8-12 angle increased
+      40° --> 45°
 
--New GFX for sideB
+  -SideB slidekick can now only be performed after the jump cancel window on sideB has been passed
 
--New up air
-  Landing lag 24
-  Active frames 8-13 and 15-22
-  hit1 4% 30wdsk/120kbg/92°
-  hit2 f15-19 13% 11% 30bkb/100kbg/90°
-  Hit2 f20-22 11% 25bkb/100kbg/90°
+  -SideB slidekick animation ending frame changed on frame 43 instead of 53
+      f53 --> 43
 
--SideB slidekick active frames moved to f8-20 from f6-25
+  -Jab3 angle increased
+      30° --> 55°
 
--SideB slidekick base knockback and angle changed to 60 and 45 respectively 
+  -Jab3 IASA reduced
+      f31 --> f25
 
--SideB slidekick can now only be performed after the jump cancel window on sideB has been passed
+  -New SFX for better clarity on certain moves or other fun references for flavor (dash attack, neutral B, sideB, down/neutralB startup, dair, jumps)
 
--SideB slidekick animation now ends on frame 43 instead of 53
-
--Jab3 angle adjusted to 55 from 30
-
--Jab3 IASA reduced to 25 from 31
-
--New SFX for better clarity on certain moves or other fun references for flavor (dash attack, neutral B, sideB, down/neutralB startup, dair, jumps)
-
--Disabled subaction 1E since it causes issues with clipping onto plats during blast attack, idk if this will ever be fixed```
+  -Disabled subaction 1E since it causes issues with clipping onto plats during blast attack, idk if this will ever be fixed tbh```
