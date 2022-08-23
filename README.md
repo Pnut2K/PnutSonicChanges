@@ -1,4 +1,3 @@
-
 ```
   -Gravity increased 0.122 > 0.13 (Jumps adjusted)
 
