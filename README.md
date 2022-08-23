@@ -77,11 +77,9 @@
   -Dash attack f4-7 base knockback decreased
       70 --> 60  
 
-  -New graphics and sounds for nair (stats unchanged)
+  -New graphics and sounds for certain moves for visibility or flavor (Nair, SideB, Down/NeutralB, Dash attack, Jumps, Blast attack)
 
   -Back throw start and end sped up by 25%
-
-  -New GFX for sideB
 
   -New up air
       Landing lag 24
@@ -90,10 +88,10 @@
       hit2 f15-19 13% 11% 30bkb/100kbg/90°
       Hit2 f20-22 11% 25bkb/100kbg/90°
 
-  -SideB slidekick active frames moved to f8-20 from f6-25
+  -SideB slidekick active frames adjusted
       f6-25 --> f8-20
 
-  -SideB slidekick base knockback reduced and angle changed to 60 and 45 respectively 
+  -SideB slidekick base knockback reduced
       65 --> 60
       
   -SideB slidekick f8-12 angle increased
@@ -102,7 +100,7 @@
   -SideB slidekick can now only be performed after the jump cancel window on sideB has been passed
 
   -SideB slidekick animation ending frame changed on frame 43 instead of 53
-      f53 --> 43
+      f53 --> f43
 
   -Jab3 angle increased
       30° --> 55°
@@ -112,4 +110,4 @@
 
   -New SFX for better clarity on certain moves or other fun references for flavor (dash attack, neutral B, sideB, down/neutralB startup, dair, jumps)
 
-  -Disabled subaction 1E since it causes issues with clipping onto plats during blast attack, idk if this will ever be fixed tbh```
+  -Disabled subaction 1E since it causes issues with clipping onto plats during blast attack```
