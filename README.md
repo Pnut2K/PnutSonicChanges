@@ -17,6 +17,18 @@
       82 --> 80
 
   -Fsmash IASA removed
+  
+  -Dsmash startup decreased
+      10f --> 8f
+   
+  -Dsmash damage reduced
+      15 --> 14
+
+  -Dsmash f8-17 base knockback reduced
+      25 --> 20
+   
+  -Dsmash f8-17 knockback growth increased
+      91 --> 96
 
   -Initial dash distance and animation speed adjusted slightly 
       40% speed increase f10
