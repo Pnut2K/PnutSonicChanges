@@ -95,7 +95,7 @@
   -New up air
       Landing lag 24
       Active frames 8-13 and 15-22
-      hit1 4% 30wdsk/120kbg/92°
+      hit1 4% 30wdsk/120kbg/82°
       hit2 f15-19 13% 11% 30bkb/100kbg/90°
       Hit2 f20-22 11% 25bkb/100kbg/90°
 
