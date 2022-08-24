@@ -85,9 +85,11 @@
   -Dash attack startup increased
       2f --> 4f
 
+  -Ftilt hitbox placement adjusted to better match animation
+  
   -Dash attack f4-7 base knockback decreased
-      70 --> 60  
-
+      70 --> 60 
+  
   -New graphics and sounds for certain moves for visibility or flavor (Nair, SideB, Down/NeutralB, Dash attack, Jumps, Blast attack)
 
   -Back throw start and end sped up by 25%
