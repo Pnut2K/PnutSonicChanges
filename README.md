@@ -123,4 +123,11 @@
 
   -New SFX for better clarity on certain moves or other fun references for flavor (dash attack, neutral B, sideB, down/neutralB startup, dair, jumps)
 
-  -Disabled subaction 1E since it causes issues with clipping onto plats during blast attack```
+  -Disabled subaction 1E since it causes issues with clipping onto plats during blast attack
+  
+  -SideB adjustments (Experimental)
+      Initial hit angle adjusted: 361° --> 360°
+      Initial hit knockback adjusted 45bkb/120kbg: --> 45wdsk/120kbg/360°
+      Gap between followup hitboxes adjusted: 1f --> 4f
+      Followup hitbox active frames per hit reduced 4f: --> 2f
+      Followup hit knockback adjusted: 50bkb/120kbg --> 45wdsk/120kbg/25°```
