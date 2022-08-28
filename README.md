@@ -97,8 +97,8 @@
   -New up air
       Landing lag 24
       Active frames 8-13 and 16-21
-      hit1 5% 110wdsk/25kbg/92°
-      hit2 f15-19 13% 35bkb/100kbg/80°
+      hit1 5% 40bkb/25kbg/90°
+      hit2 f15-19 13% 30bkb/100kbg/75°
       Hit2 f15-19 (sour spot) f20-22 11% 25bkb/100kbg/80°
 
   -SideB slidekick active frames adjusted
@@ -126,8 +126,8 @@
   -Disabled subaction 1E since it causes issues with clipping onto plats during blast attack
   
   -SideB adjustments (Experimental)
-      Initial and followup hit angle adjusted: 361°/25° --> 360°
+      Initial and followup hit angle adjusted: 361°/25° --> 360°/10°
       Initial hit knockback adjusted 45bkb/100kbg: --> 40wdsk/100kbg/360°
       Gap between followup hitboxes adjusted: 1f --> 4f
       Followup hitbox active frames per hit reduced 4f: --> 2f
-      Followup hit knockback adjusted: 50bkb/120kbg --> 45wdsk/120kbg/360°```
+      Followup hit knockback adjusted: 50bkb/120kbg --> 45wdsk/120kbg/10°```
