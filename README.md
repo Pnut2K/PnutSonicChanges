@@ -94,8 +94,8 @@
   -New up air
       Landing lag 20
       Active frames 8-13 and 15-21
-      hit1 5% 40bkb/25kbg/95°
-      hit2 f15-19 13% 40bkb/100kbg/75°
+      hit1 5% 50bkb/20kbg/90°
+      hit2 f15-19 13% 40bkb/100kbg/80°
       Hit2 f15-19 (sour spot) f20-22 11% 30bkb/100kbg/70°
 
   -SideB slidekick active frames adjusted
