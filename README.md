@@ -49,17 +49,14 @@
   -Fair landing lag increased 
       f22 --> f24
 
-  -Bair landing lag increased
-      f18 --> f22
-
   -Bair IASA window adjusted moved to 36 from 34
       f34 --> f36
       
   -Fair foot size and position adjusted to better suit hit/hurtboxes
 
   -Fair active frames moved to f11-12 and f13-18 from 8-9 and 10-13
-      Semispike: f8-9 --> f11-12
-      Meteor: f10-13 --> f13-18
+      Semispike: f8-9 --> f10-11
+      Meteor: f10-13 --> f12-16
 
   -Terminal velocity increased
       1.9 --> 2.3  
@@ -95,11 +92,11 @@
   -Back throw start and end sped up by 25%
 
   -New up air
-      Landing lag 24
-      Active frames 8-13 and 16-21
-      hit1 5% 40bkb/25kbg/90°
-      hit2 f15-19 13% 30bkb/100kbg/75°
-      Hit2 f15-19 (sour spot) f20-22 11% 25bkb/100kbg/80°
+      Landing lag 20
+      Active frames 8-13 and 15-21
+      hit1 5% 40bkb/25kbg/95°
+      hit2 f15-19 13% 40bkb/100kbg/75°
+      Hit2 f15-19 (sour spot) f20-22 11% 30bkb/100kbg/70°
 
   -SideB slidekick active frames adjusted
       f6-25 --> f8-20
