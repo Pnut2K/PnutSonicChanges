@@ -11,7 +11,7 @@
       3.019 --> 3.219
 
   -Max run speed decreased to 2.6 from 4.0
-      4.0 --> 2.6
+      4.0 --> 2.5
 
   -Weight decreased to 80 from 82
       82 --> 80
@@ -59,7 +59,7 @@
       Meteor: f10-13 --> f12-16
 
   -Terminal velocity increased
-      1.9 --> 2.3  
+      1.9 --> 2.35  
 
   -Uthrow animation speed slowed down by 15% after the opponent is launched to reduce actionability
       15% speed decrease f25-43
