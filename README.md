@@ -91,13 +91,16 @@
 
   -Back throw start and end sped up by 25%
 
-  -New up air
+  -Potential new up air 1 (Sweeping kicks)
       Landing lag 20
       Active frames 8-13 and 15-21
-      hit1 5% 50bkb/20kbg/90°
+      hit1 5% 25wdsk/100kbg/365°
       hit2 f15-19 13% 40bkb/100kbg/80°
       Hit2 f15-19 (sour spot) f20-22 11% 30bkb/100kbg/70°
 
+  -Potential new up air 2 (Sonic wind)
+      All stats identical to vanilla except for the second hit sending at 70 degrees instead of 90 @45bkb instead of 25
+  
   -SideB slidekick active frames adjusted
       f6-25 --> f8-20
 
