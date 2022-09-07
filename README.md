@@ -156,6 +156,7 @@
   
   -SideB adjustments (Experimental)
       Initial and followup hit angle adjusted: 361°/25° --> 360°/20°
-      Gap between followup hitboxes adjusted: 1f --> 3f
+      Initial hit active frames 2f --> 1f
+      Gap between hitboxes adjusted: 1f --> 4f
       Followup hitbox active frames per hit reduced 4f: --> 1f
 \\Wanted the hits to link more effectively while also making it easier for the victim to escape via SDI/1-3f options while also making it weaker on CC/ASDI down. 361° --> 360° makes it so this move never knocks down.```
