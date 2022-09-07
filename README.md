@@ -145,17 +145,17 @@
 \\Wanted to give this move less endlag while also decreasing knockback and increasing startup drastically. Basically a tool used for tech chasing and maybe read-based edgeguards instead of basically dash attack at ledge but stronger.
   
   -Jab3 angle increased
-      30° --> 55°
+      30° --> 50°
 
   -Jab3 IASA reduced
-      f31 --> f25
+      f31 --> f28
 \\Wanted this move to stop being literally useless
 
   -Disabled subaction 1E since it causes issues with clipping onto plats during blast attack forcing you into lag on hit
 \\Explains itself, hopefully fixable with the ECB rewrite
   
   -SideB adjustments (Experimental)
-      Initial and followup hit angle adjusted: 361°/25° --> 360°/10°
+      Initial and followup hit angle adjusted: 361°/25° --> 360°/20°
       Gap between followup hitboxes adjusted: 1f --> 3f
-      Followup hitbox active frames per hit reduced 4f: --> 2f
+      Followup hitbox active frames per hit reduced 4f: --> 1f
 \\Wanted the hits to link more effectively while also making it easier for the victim to escape via SDI/1-3f options while also making it weaker on CC/ASDI down. 361° --> 360° makes it so this move never knocks down.
