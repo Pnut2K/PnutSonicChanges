@@ -158,5 +158,4 @@
       Initial and followup hit angle adjusted: 361°/25° --> 360°/10°
       Gap between followup hitboxes adjusted: 1f --> 3f
       Followup hitbox active frames per hit reduced 4f: --> 2f
-      Followup hit knockback adjusted: 50bkb/120kbg --> 45wdsk/120kbg/10°
 \\Wanted the hits to link more effectively while also making it easier for the victim to escape via SDI/1-3f options while also making it weaker on CC/ASDI down. 361° --> 360° makes it so this move never knocks down.
