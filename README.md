@@ -1,4 +1,4 @@
-
+```
   -Mission statement
 \\Sonic has been a very polarizing character for many years, and my goals with these adjustments are to reduce his polarizing aspects to make his playstyle healthier and more fun for both players and keeping his overall strength the same or slightly weaker while also adding more in the way of references to his source material and viusal clarity to his kit; This also serves to make him more visually appealing and distinct to spectators and players alike.
 
@@ -158,4 +158,4 @@
       Initial and followup hit angle adjusted: 361°/25° --> 360°/20°
       Gap between followup hitboxes adjusted: 1f --> 3f
       Followup hitbox active frames per hit reduced 4f: --> 1f
-\\Wanted the hits to link more effectively while also making it easier for the victim to escape via SDI/1-3f options while also making it weaker on CC/ASDI down. 361° --> 360° makes it so this move never knocks down.
+\\Wanted the hits to link more effectively while also making it easier for the victim to escape via SDI/1-3f options while also making it weaker on CC/ASDI down. 361° --> 360° makes it so this move never knocks down.```
