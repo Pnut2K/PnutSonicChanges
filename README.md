@@ -127,7 +127,7 @@
 \\I basically made this because I thought it looked cool, doesn't really work without an autolink, worse than vanilla in basically every way other than looking cool
   
   -Potential new up air 2 (Sonic wind gfx)
-\\All stats identical to vanilla except for the second hit is 40/100/70° instead of 25/100/90°, feels more fun for combos imo and makes opponent's DI matter more
+\\All stats identical to vanilla except for the second hit is 45/100/70° instead of 25/100/90°, feels more fun for combos imo and makes opponent's DI matter more
   
   -SideB slidekick active frames adjusted
       f6-25 --> f8-20
