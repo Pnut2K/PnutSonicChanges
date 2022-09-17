@@ -26,7 +26,8 @@
       82 --> 80
 \\Basically did this as a compensation nerf for fallspeed changes
   
-  -Fsmash IASA removed
+  -Fsmash IASA increased
+      32 --> 35
 \\This move is way too safe on whiff lmao
   
   -Dsmash startup decreased
@@ -59,7 +60,7 @@
 
   -Bair f11-13 leg and foot hitbox stats adjusted
       Damage: 16 --> 13
-      Base knockback: 40 --> 20
+      Base knockback: 40 --> 25
       Knockback growth: 90 --> 100
       
   -Bair IASA window adjusted moved to 36 from 34
@@ -72,9 +73,9 @@
   -Fair foot size and position adjusted to better suit hit/hurtboxes
 
   -Fair active frames moved to f10-11 and f12-17 from 8-9 and 10-13
-      Semispike: f8-9 --> f10-11
-      Meteor: f10-13 --> f12-16
-\\Wanted to make fair weaker overall in light of the fall speed changes, want it to be used more preemptively than it currently is while preserving its use case
+      Semispike: f8-9 --> f9-10
+      Meteor: f10-13 --> f11-15
+\\Light nerfs to compensate for fall speed changes
   
   -Terminal velocity increased
       1.9 --> 2.35  
@@ -118,15 +119,7 @@
   -Back throw start and end sped up by 25%
 \\I want this throw to be slightly more viable as a DI mixup 
   
-  -Potential new up air 1 (Sweeping kicks)
-      Landing lag 20
-      Active frames 8-13 and 15-21
-      hit1 5% 25wdsk/100kbg/365°
-      hit2 f15-19 13% 40bkb/100kbg/80°
-      Hit2 f15-19 (sour spot) f20-22 11% 30bkb/100kbg/70°
-\\I basically made this because I thought it looked cool, doesn't really work without an autolink, worse than vanilla in basically every way other than looking cool
-  
-  -Potential new up air 2 (Sonic wind gfx)
+  -Uair
 \\All stats identical to vanilla except for the second hit is 45/100/70° instead of 25/100/90°, feels more fun for combos imo and makes opponent's DI matter more
   
   -SideB slidekick active frames adjusted
@@ -149,14 +142,14 @@
 
   -Jab3 IASA reduced
       f31 --> f28
-\\Wanted this move to stop being literally useless
+\\Wanted this move to stop being ALMOST useless
 
-  -Disabled subaction 1E since it causes issues with clipping onto plats during blast attack forcing you into lag on hit
+  -Disabled subaction 1E (one of the neutral B trick animations) since it causes issues with clipping onto plats during blast attack forcing you into lag on hit
 \\Explains itself, hopefully fixable with the ECB rewrite
   
   -SideB adjustments (Experimental)
-      Initial and followup hit angle adjusted: 361°/25° --> 360°/20°
+      Initial and followup hit angle adjusted: 361°/25° --> 361°/20°
       Initial hit active frames 2f --> 1f
       Gap between hitboxes adjusted: 1f --> 4f
       Followup hitbox active frames per hit reduced 4f: --> 1f
-\\Wanted the hits to link more effectively while also making it easier for the victim to escape via SDI/1-3f options while also making it weaker on CC/ASDI down. 361° --> 360° makes it so this move never knocks down.```
+\\Slightly more reliable with the followup angle adjustment while also nerfing it in several ways that I hope will make it feel less oppressive```
